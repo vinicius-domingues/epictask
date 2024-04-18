@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Epic Task</title>
+</head>
+<body>
+    <h1>Pica Tasca</h1>
+
+    <form action="">
+        <h2>Novas tarefas</h2>
+        <div style="background-color:#212529; padding: 1rem;" class="nes-field">
+            <label for="titulo" style="color:#fff;">Título</label>
+            <input type="text" id="titulo" class="nes-input is-dark" placeholder="dark.css">
+        </div>
+        
+        <div style="background-color:#fff; padding: 1rem;" class="nes-textarea">
+            <label for="descricao">Descrição</label>
+            <textarea id="descricao" class="nes-textarea"></textarea>
+    
+        </div>
+    
+        <div style="background-color:#212529; padding: 1rem;" class="nes-field">
+            <label for="pontos" style="color:#fff;">Pontos</label>
+            <input type="number" id="pontos" class="nes-input is-dark" placeholder="dark.css">
+        </div>
+    
+        <div class="botoes">
+            <a href="/index.html" class="nes-btn">Cancelar</a>
+            <button type="submit" class="nes-btn is-primary">Salvar</button>
+        </div>
+    </form>
+
+
+</body>
+</html>
